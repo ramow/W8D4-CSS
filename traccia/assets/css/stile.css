@@ -1,0 +1,331 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    background-image: url("/assets/img/sfondo.png");
+    margin: 0px;
+
+}
+
+h1 {
+    font-family: Poppins;
+    font-size: 27px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px rgba(0, 0, 1, 0.5)
+}
+
+h1+p {
+    color: gray;
+
+
+}
+
+hr {
+    display: none;
+}
+
+p,
+ul,
+ol,
+table {
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+strong {
+    color: blueviolet;
+    text-shadow: 0px 0px 1px rgba(137, 43, 226, 0.3);
+}
+
+ul,
+ol {
+    margin-left: 10%;
+}
+
+iframe {
+    border-radius: 10px;
+    height: 200%;
+    width: 100%;
+}
+
+.toTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+
+}
+
+.toTop i {
+    font-size: 50px;
+    background-color: white;
+    color: rgb(237, 14, 237);
+    border-radius: 10px;
+
+}
+
+/* HEADER */
+header {
+    background-image: linear-gradient(to top, rgb(25, 58, 124), rgb(129, 129, 249));
+    box-shadow: 1px 3px 5px rgba(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+}
+
+header div {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+header p {
+    margin: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: px;
+    list-style-type: "none";
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+
+}
+
+nav li:before {
+    content: "\2605";
+    color: white;
+    margin-right: 0.5em;
+    font-size: 8px;
+    vertical-align: middle;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+main {
+    background-color: white;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    padding: 20px;
+}
+
+main article h2 {
+    font-family: Poppins;
+    margin-bottom: 6px;
+}
+
+article ul li code {
+    background-color: rgb(231, 225, 225);
+    border-radius: 10px;
+    border: 0.5px solid gray;
+}
+
+/* TABELLE */
+
+caption {
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgba(0, 0, 1, 0.5)
+}
+
+thead {
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(68, 133, 253);
+    height: 9vh;
+}
+
+thead th {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #cccccc6b;
+}
+
+td {
+    padding: 1.5vh;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #d0d0d1;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+table {
+    border-bottom: solid rgb(68, 133, 253);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FORM */
+section h2 {
+    background-color: rgb(152, 152, 152);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0);
+    color: rgb(49, 47, 47);
+    font-size: 24px;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 8px 18px 8px 18px;
+    width: 90px;
+    margin-left: 15px;
+    margin-top: 40px;
+    position: relative;
+    bottom: 15px;
+
+}
+
+section {
+    background-color: rgb(231, 225, 225);
+    padding: 0px 15px 10px 15px;
+
+}
+
+
+input {
+    border: none;
+    border-bottom: dashed black;
+    height: 3vh;
+    width: 55%;
+    padding-left: 5px;
+}
+
+button {
+    font-family: Poppins;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(88, 123, 221);
+    border: none;
+    height: 1.7rem;
+}
+
+/* ELEMENTI NELL' ASIDE */
+aside h2 {
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+    margin: 50px;
+    text-align: center;
+
+}
+
+aside a {
+    font-family: Poppins;
+    color: rgb(80, 166, 166);
+}
+
+aside div {
+    background-color: rgb(231, 225, 225);
+    margin-bottom: 15px;
+    padding: 15px;
+    border: solid 2px rgb(198, 197, 197);
+}
+
+aside div p:last-child {
+    text-align: right;
+    font-size: 12px;
+    margin: 0;
+}
+
+/* FOOTER */
+footer {
+    background-image: linear-gradient(to top, rgb(25, 58, 124), rgb(129, 129, 249));
+    box-shadow: 1px 3px 5px rgba(0, 0, 0);
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    color: white;
+}
+
+footer a {
+    color: rgb(237, 14, 237);
+    text-shadow: 0px 0px 1px rgb(237, 14, 237);
+
+}
+
+footer address {
+    margin: 20px;
+    padding-top: 5px;
+    line-height: 1.4;
+}
+
+/* Descktop */
+@media screen and (min-width: 800px) {
+    header p{
+        font-size: 30px;
+    }
+    header li{
+        font-size: 25px;
+    }
+    main {
+        margin: 0px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    h1+p{
+        margin-bottom: 100px;
+    }
+    p,ul,ol{
+        font-size: 20px;
+    }
+    main h2{
+        font-size: 20px;
+    }
+    aside h2{
+        font-size: 25px;
+    }
+
+    h1+p {
+        text-align: center;
+    }
+    table {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    main {
+        margin: 50px;
+        padding: 50px 150px 50px 150px;
+    }
+
+    iframe {
+        border-radius: 10px;
+        height: 500px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    form {
+        margin-left: 26%;
+        width: 66%;
+    }
+
+    input {
+        padding-left: 10px;  
+    }
+    section p{
+        text-align: center;
+    }
+
+}
